@@ -1,0 +1,12 @@
+{
+    "name": "imp/parcelpack",
+    "require": {
+        "slick/slick": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Pavel Kononov",
+            "email": "woodsleaf@gmail.com"
+        }
+    ]
+}

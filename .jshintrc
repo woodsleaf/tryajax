@@ -1,0 +1,18 @@
+{
+    "esversion":6,
+    "asi": true,
+    "plusplus": false,
+
+    "browser": true,
+    "browserify": true,
+    "devel": true,
+    "jquery": true,
+
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "maxdepth": 3,
+    "undef": true,
+    "unused": true,
+    "quotmark": "single"
+}
