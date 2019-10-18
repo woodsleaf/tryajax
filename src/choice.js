@@ -11,6 +11,7 @@ document.addEventListener(
       html += '<hr>';
       html +=  JSON.stringify(mydata[0].datalist);
       html += '<hr>';
+
       html += '<form>';
       mydata[0].step1col.forEach(val => {
         html += '<br><input type="radio" name="'  +  val.name  + '" id="' +  val.id  + '">' + '<label for="' + val.id + '">' + val.label + '</label>';
@@ -27,10 +28,14 @@ document.addEventListener(
       html += '</form>';
 
       html += '<hr>';
+      html += '<form>';
       mydata[0].datalist.forEach(val => {
         html+='<div class="itemshow"><input type="checkbox"><div class="imgwrap">';
         html +=`<img src="${'./content/' + val.url}" alt="${val.name}" title="${val.name}">`;
         html+=`</div><p>${val.name}</p></div>`;
       });
+      html += '<br><input type="submit" id="goSendForm" value="SendYourChoiceToSendForm">';
+      html += '</form>';
+      
       document.getElementsByClassName('myformajax')[0].innerHTML = html;
     });
