@@ -35,7 +35,7 @@
     "vue-json5-pretty": "^0.0.1",
     "vue-router": "^3.1.3",
     "vuex": "^3.1.1",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start": "parcel src/index.html",
