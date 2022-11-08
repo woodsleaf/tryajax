@@ -17,7 +17,7 @@
     "flexbox": "^0.0.3",
     "lint-staged": "^9.2.5",
     "parcel-bundler": "^1.12.4",
-    "postcss-modules": "^1.4.1",
+    "postcss-modules": "^1.5.0",
     "postcss-nested": "^4.1.2",
     "posthtml-img-autosize": "^0.1.4",
     "sass": "^1.23.0-module.beta.1",
